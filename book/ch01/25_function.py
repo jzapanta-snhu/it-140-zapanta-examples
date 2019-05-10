@@ -7,7 +7,7 @@
 def applyDiscount(price, discountRate):
 	""" Function will calculate discounted price 
 	
-		This function will take the price and discount rate as a decimal and calculate the new price.
+		This functiosn will take the price and discount rate as a decimal and calculate the new price.
 		
 		Parameters:
 		price (float):  Price of item.
@@ -20,6 +20,6 @@ salePrice = 29.99
 discount = 0.10
 
 print ("SALE PRICE CALCULATION\n")
-print ("Price: $", salePrice)
-print ("DiscountRate:  ", (discount * 100), "%")
-print ("Discounted price:  $", applyDiscount(salePrice, discount))
+print ("Price: $", salePrice, sep="")
+print ("DiscountRate:  ", (discount * 100), "%", sep="")
+print ("Discounted price:  $", applyDiscount(salePrice, discount), sep="")
