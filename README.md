@@ -9,7 +9,7 @@ To access the code in the Codio environment, follow this procedure:
 ## Step 1:  Get GitHub Clone URL
 You will be [cloning](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone) the GitHub repository that contains the example files.  For reference, the URL is:
 
-`<code>`https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone`</code>`
+`<code>`https://github.com/jzapanta-snhu/it-140-zapanta-examples.git
 
 ## Step 2:  Create a Codio Project
 In Codio, you have the ability to create individual projects.  To create a project:
@@ -39,4 +39,9 @@ Click **Create** to complete the process.  You will be taken the project area on
 
 ![Codio Project Window](images/codio_project_window.png)
 
+The project will have a single README file.
+
 ## Step 3:  Clone the project
+To clone the project click on **Tools > Terminal**.  Once there, enter the following command:
+
+`<code>`git clone https://github.com/jzapanta-snhu/it-140-zapanta-examples.git`</code>`
