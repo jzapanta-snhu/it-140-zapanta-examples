@@ -60,6 +60,7 @@ This copies the remote GitHub repository to your drive and you can test out the 
 To run the code, try the following procedure within the Terminal window:
 
 `cd ~/workspace/it-140-zapanta-examples/module01/`
+
 `python3 01_hello.py`
 
 This will change as you run other scripts.
@@ -68,6 +69,7 @@ This will change as you run other scripts.
 As updates get made to the repository, you will want to download the latest version of the code.  To do this, run the following commands:
 
 `cd ~/workspace/it-140-zapanta-examples`
+
 `git pull`
 
 # Next steps
