@@ -3,6 +3,7 @@
 # COURSE: 	IT-140
 # PROGRAM: 	Chapter 1 - Function Example
 # PURPOSE:  This program will demonstrate how a custom-made function works.
+# RUNTIME:	Python 3+
 
 def applyDiscount(price, discountRate):
 	""" Function will calculate discounted price 
@@ -13,11 +14,13 @@ def applyDiscount(price, discountRate):
 		price (float):  Price of item.
 		discountRate (float):  Discount rate a decimal (rate / 100).
 	"""
+
+	# calculate sale price and return result to original function call (Line 28)
 	return price - (price * discountRate)
 
-# setup sale Price and discount
-salePrice = 29.99
-discount = 0.10
+# initialize salePrice and discount
+salePrice = 29.99						# price
+discount = 0.10							# percentage as decimal
 
 print ("SALE PRICE CALCULATION\n")
 print ("Price: $", salePrice, sep="")
