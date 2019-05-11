@@ -13,9 +13,12 @@ def applyDiscount(price, discountRate):
 		Parameters:
 		price (float):  Price of item.
 		discountRate (float):  Discount rate a decimal (rate / 100).
+		
+		Returns:
+		float:  Calculated price with discount in effect.
 	"""
 
-	# calculate sale price and return result to original function call (Line 28)
+	# calculate sale price and return result to original function call (Line 31)
 	return price - (price * discountRate)
 
 # initialize salePrice and discount
