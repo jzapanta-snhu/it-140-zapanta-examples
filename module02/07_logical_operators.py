@@ -3,7 +3,7 @@
 # COURSE:   IT-140
 # PROGRAM:  Loan Qualification
 #
-# PURPOSE:  This program will demonstrate nested if statements
+# PURPOSE:  This program will demonstrate the use of logical operators.
 # RUNTIME:  Python 2+
 #
 # CREDIT:  Gaddis, T. (2012). Starting Out with C++: From Control Structures Through Objects. Pearson Addison-Wesley. Retrieved from https://books.google.com/books?id=Xbt0uQAACAAJ
@@ -22,15 +22,12 @@ def main():
     employed = input("Are you employed? ")
     recent_grad = input("Have you graduated from college in the past two years? ")
 
-    # Are you employed?
-    if (employed == 'Y'):
-        # If employed, are you a recent college graduate?
-        if (recent_grad == 'Y'):
-            print("You qualify for the special interest rate.")
-        else:
-            print("You must have graduated from college in the past two\nyears to qualify.\n")
+
+    # Determine the user's loan qualification
+    if (employed == 'Y' and recent_grad == 'Y'):
+        print("You qualify for the special interest rate.")
     else:
-        print ("You must be employed to qualify.")
+        print("You must must be employed and have\ngraduated from college in the\npast two years to qualify.\n")
    
 
 # See https://runestone.academy/runestone/static/thinkcspy/Functions/mainfunction.html
