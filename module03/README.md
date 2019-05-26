@@ -14,6 +14,10 @@ All sample files will be sorted in order to run.  For reference, a list of progr
 This example uses a for loop to display the value of the counter variable.
 
 **TEXT SOURCE:**  64. Ranges
+***Added 5/25:*** This is a variation of the previous example where variables are being used to represent the various
+components of a range function that is used in FOR loops.
+
+## 1a.  FOR Loop Example
 
 ## 2.  WHILE Loop Summation Example
 This example will add a series of numbers in sequence (ie. 1+2+3)
