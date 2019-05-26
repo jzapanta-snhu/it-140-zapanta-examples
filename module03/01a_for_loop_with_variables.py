@@ -12,8 +12,8 @@ def main():
     """
 
     # Display header
-    print ("01 - FOR Loop Examples")
-
+    print ("01a - FOR Loop Examples with Variables...")
+    print ("This script is a variation of example 01_for_loop.py\n\n")
 
     # Print heading for first example
     print("\n\n*************************************************************************************************")
