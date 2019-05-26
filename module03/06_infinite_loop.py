@@ -18,7 +18,7 @@ def main():
     print ("06 - Infinite Loop\n\n")
     dummy = input("To end the program, hit CTRL + Break.  Press <ENTER> key to start the infinite loop.")
 
-    # Line 19 is bad...
+    # Line 22 is bad...Very bad... :-(
     while (True):
         print("Lather.")
         print("Rinse.")
