@@ -26,8 +26,7 @@ manipulate data, and print the results again.  We will use a loop to iterate and
 
 **TEXT SOURCE:**  84.  Creating Dictionaries; 85.  Working with Dictionaries; 86. Modifying Dictionaries
 
-## 3.  WHILE Loop Sentinel Value
-This program will continue to accept input until you enter a value that will force the program to exit.
-
 ## 4.  Two-Dimensional Lists
 This example shows how to work with 2-D lists
+
+**TEXT SOURCE:** 2. 2. Reading from a 2D list (from 2-D List Run the Code Challenge)
