@@ -7,20 +7,10 @@
 #
 # RUNTIME:  Python 3+
 
-def main():
-    """ Main function.
-    """
+print ("05 - Pattern Output\n\n")
 
-    print ("05 - Pattern Output\n\n")
+for i in range(10):
+    for j in range(10):
+        print("*", sep="", end="")
+    print()
 
-    for i in range(10):
-        for j in range(10):
-            print("*", sep="", end="")
-        print()
-
-# See https://runestone.academy/runestone/static/thinkcspy/Functions/mainfunction.html
-#
-# call main function if this is the main file
-if __name__ == "__main__":
-    # Go to Line 28 when "main" is called
-    main()

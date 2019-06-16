@@ -8,38 +8,28 @@
 #
 # CREDIT:  Gaddis, T. (2012). Starting Out with C++: From Control Structures Through Objects. Pearson Addison-Wesley. Retrieved from https://books.google.com/books?id=Xbt0uQAACAAJ
 
-def main():
-    """ Main function 
-    """
+# Initialize high score
+HIGH_SCORE = 95
 
-    # Initialize high score
-    HIGH_SCORE = 95
+# Display heading
+print("HIGH SCORE PROGRAM\n")
 
-    # Display heading
-    print("HIGH SCORE PROGRAM\n")
+# Display instructions
+print("Enter 3 test scores and I will average them")
 
-    # Display instructions
-    print("Enter 3 test scores and I will average them")
+# Get test scores.
+# NOTE: Using "input" function to get input from keyboard.
+# We will assume that data entered will be numerical test scores.
+score1 = float(input("Score 1:  "))
+score2 = float(input("Score 2:  "))
+score3 = float(input("Score 3:  "))
 
-    # Get test scores.
-    # NOTE: Using "input" function to get input from keyboard.
-    # We will assume that data entered will be numerical test scores.
-    score1 = float(input("Score 1:  "))
-    score2 = float(input("Score 2:  "))
-    score3 = float(input("Score 3:  "))
+# Calculate the average and display results
+average = (score1 + score2 + score3) / 3.0
+print ("Your average is " + str(average))
 
-    # Calculate the average and display results
-    average = (score1 + score2 + score3) / 3.0
-    print ("Your average is " + str(average))
-
-    # If the average is a high score, congratulate the user
-    if (average > HIGH_SCORE):
-        print ("Congratulations!  That's a high score!")
+# If the average is a high score, congratulate the user
+if (average > HIGH_SCORE):
+print ("Congratulations!  That's a high score!")
 
 
-# See https://runestone.academy/runestone/static/thinkcspy/Functions/mainfunction.html
-#
-# call main function if this is the main file
-if __name__ == "__main__":
-    # Go to Line 28 when "main" is called
-    main()

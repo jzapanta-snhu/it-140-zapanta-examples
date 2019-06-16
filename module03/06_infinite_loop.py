@@ -9,25 +9,11 @@
 #
 # CREDITS:  Downey, A. B. (2012). Think Python. O’Reilly Media. Retrieved from https://books.google.com/books?id=10KYwCZxSdEC
 
-def main():
-    """ Main function.
-    
-        IMPORTANT NOTE:  To break out of the infinite loop, press CTRL + Break on your keyboard.
-    """
+print ("06 - Infinite Loop\n\n")
+dummy = input("To end the program, hit CTRL + Break.  Press <ENTER> key to start the infinite loop.")
 
-    print ("06 - Infinite Loop\n\n")
-    dummy = input("To end the program, hit CTRL + Break.  Press <ENTER> key to start the infinite loop.")
-
-    # Line 22 is bad...Very bad... :-(
-    while (True):
-        print("Lather.")
-        print("Rinse.")
-        print("Repeat...")
-
-    
-# See https://runestone.academy/runestone/static/thinkcspy/Functions/mainfunction.html
-#
-# call main function if this is the main file
-if __name__ == "__main__":
-    # Go to Line 28 when "main" is called
-    main()
+# Line 16 is bad...Very bad... :-(
+while (True):
+    print("Lather.")
+    print("Rinse.")
+    print("Repeat...")
